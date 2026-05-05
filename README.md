@@ -3,7 +3,7 @@ The visualization from the inference code (`inference.ipynb`)
 
 <div align="center">
   <img src="sim_out_video/step0.png" height="500" />
-</div>
+</div>  
 
 This is the unofficial repository of 
 
