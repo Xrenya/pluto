@@ -27,7 +27,7 @@ This is the unofficial repository of
 ### Setup dataset
 
 Setup the nuPlan dataset following the [offiical-doc](https://nuplan-devkit.readthedocs.io/en/latest/dataset_setup.html)
-
+Donwload mini-nuPlan from [HuggingFace](https://huggingface.co/datasets/runfuture/nuplan-mini-sample/tree/main)
 ### Setup conda environment
 
 ```
