@@ -1,9 +1,15 @@
 # PLUTO
+The visualization from the inference code (`inference.ipynb`)  
 
-This is the official repository of
+<div align="center">
+  <img src="sim_out_video/step0.png" height="500" />
+</div>
+
+This is the unofficial repository of 
 
 **PLUTO: Push the Limit of Imitation Learning-based Planning for Autonomous Driving**,
 
+[Official repository](https://github.com/jchengai/pluto#),
 [Jie Cheng](https://jchengai.github.io/), [Yingbing Chen](https://sites.google.com/view/chenyingbing-homepage), and [Qifeng Chen](https://cqf.io/)
 
 
@@ -116,17 +122,6 @@ sh ./script/run_pluto_planner.sh pluto_planner nuplan_mini mini_demo_scenario pl
 ```
 
 The rendered simulation video will be saved to the specified directory (need change `/dir_to_save_the_simulation_result_video`).
-
-## To Do
-
-The code is under cleaning and will be released gradually.
-
-- [ ] improve docs
-- [x] training code
-- [x] visualization
-- [x] pluto-planner & checkpoint
-- [x] feature builder & model
-- [x] initial repo & paper
 
 ## Docker 
 
