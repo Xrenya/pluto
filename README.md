@@ -128,10 +128,6 @@ The code is under cleaning and will be released gradually.
 - [x] feature builder & model
 - [x] initial repo & paper
 
-## Citation
-
-If you find this repo useful, please consider giving us a star 🌟 and citing our related paper.
-
 ## Docker 
 
 ### Build the docker container
@@ -203,6 +199,10 @@ export NUPLAN_DB_FILES=/workspace/nuplan-mini-sample/nuplan_data/nuplan-v1.1/spl
 # Render a video to /workspace/sim_out_video
 sh ./script/run_pluto_planner.sh pluto_planner nuplan_mini mini_demo_scenario pluto_1M_aux_cil.ckpt /workspace/sim_out_video
 ```
+
+## Citation
+
+[Official repository](https://github.com/jchengai/pluto#)
 
 ```bibtex
 @article{cheng2024pluto,
