@@ -1,0 +1,18 @@
+services:
+  pluto:
+    build: .
+    image: pluto:dev
+    working_dir: /workspace
+    volumes:
+      - .:/workspace:delegated
+      - pluto_venv:/opt/venv
+      - pip_cache:/root/.cache/pip
+    environment:
+      - PYTHONPATH=/workspace
+    # For GPU usage (requires NVIDIA Container Toolkit):
+    # docker compose run --rm --gpus all pluto bash
+    command: bash
+
+volumes:
+  pluto_venv:
+  pip_cache:
